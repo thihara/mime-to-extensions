@@ -1,10 +1,8 @@
 # mime-to-extensions
 
 [![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
 [![Node.js Version][node-version-image]][node-version-url]
 [![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
 
 Similar to [mime-type](https://github.com/jshttp/mime-types), except for the additional functionality to list all
 extensions for a give mime type (content type) via the `allExtensions` method.
@@ -95,9 +93,5 @@ A map of extensions by content-type.
 [npm-url]: https://npmjs.org/package/mime-types
 [node-version-image]: https://img.shields.io/node/v/mime-types.svg
 [node-version-url]: https://nodejs.org/en/download/
-[travis-image]: https://travis-ci.org/thihara/mime-types.svg?branch=master
-[travis-url]: https://travis-ci.org/thihara/mime-types
-[coveralls-image]: https://img.shields.io/coveralls/jshttp/mime-types/master.svg
-[coveralls-url]: https://coveralls.io/r/jshttp/mime-types
-[downloads-image]: https://img.shields.io/npm/dm/mime-types.svg
-[downloads-url]: https://npmjs.org/package/mime-types
+[travis-image]: https://travis-ci.org/thihara/mime-to-extensions.svg?branch=master
+[travis-url]: https://travis-ci.org/thihara/mime-to-extensions
