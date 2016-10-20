@@ -1,6 +1,5 @@
 # mime-to-extensions
 
-[![NPM Version][npm-image]][npm-url]
 [![Node.js Version][node-version-image]][node-version-url]
 [![Build Status][travis-image]][travis-url]
 
@@ -89,7 +88,6 @@ A map of extensions by content-type.
 
 [MIT](LICENSE)
 
-[npm-image]: https://img.shields.io/npm/v/mime-types.svg
 [npm-url]: https://www.npmjs.com/package/mime-to-extensions
 [node-version-image]: https://img.shields.io/node/v/mime-types.svg
 [node-version-url]: https://nodejs.org/en/download/
