@@ -1,3 +1,9 @@
+2.1.13 / 2016-10-20
+===================
+
+- Add new method `allExtensions` to list all the extensions for a
+mime-type
+
 2.1.12 / 2016-09-18
 ===================
 

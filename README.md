@@ -8,20 +8,15 @@
 
 The ultimate javascript content-type utility.
 
-Similar to [node-mime](https://github.com/broofa/node-mime), except:
-
-- __No fallbacks.__ Instead of naively returning the first available type, `mime-types` simply returns `false`,
-  so do `var type = mime.lookup('unrecognized') || 'application/octet-stream'`.
-- No `new Mime()` business, so you could do `var lookup = require('mime-types').lookup`.
-- Additional mime types are added such as jade and stylus via [mime-db](https://github.com/jshttp/mime-db)
-- No `.define()` functionality
+Similar to [mime-type](https://github.com/jshttp/mime-types), except for the additional functionality to list all
+extensions for a give mime type (content type) via the `allExtensions` method.
 
 Otherwise, the API is compatible.
 
 ## Install
 
 ```sh
-$ npm install mime-types
+$ npm install mime-to-extensions
 ```
 
 ## Adding Types
@@ -32,7 +27,7 @@ so open a PR there if you'd like to add mime types.
 ## API
 
 ```js
-var mime = require('mime-types')
+var mime = require('mime-to-extensions')
 ```
 
 All functions return `false` if input is invalid or not found.

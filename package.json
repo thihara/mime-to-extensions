@@ -1,18 +1,16 @@
 {
-  "name": "mime-types",
-  "description": "The ultimate javascript content-type utility.",
-  "version": "2.1.12",
+  "name": "mime-to-extensions",
+  "description": "A fork of mime-type by jshttp. This has additional functionality to list all extensions for a mime type",
+  "version": "2.1.13",
   "contributors": [
-    "Douglas Christopher Wilson <doug@somethingdoug.com>",
-    "Jeremiah Senkpiel <fishrock123@rocketmail.com> (https://searchbeam.jit.su)",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    "Thihara Neranjya <tneranjya@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
     "mime",
     "types"
   ],
-  "repository": "jshttp/mime-types",
+  "repository": "thihara/mime-types",
   "dependencies": {
     "mime-db": "~1.24.0"
   },
