@@ -1,4 +1,4 @@
-# mime-types
+# mime-to-extensions
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
@@ -6,12 +6,8 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-The ultimate javascript content-type utility.
-
 Similar to [mime-type](https://github.com/jshttp/mime-types), except for the additional functionality to list all
 extensions for a give mime type (content type) via the `allExtensions` method.
-
-Otherwise, the API is compatible.
 
 ## Install
 
