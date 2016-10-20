@@ -1,7 +1,7 @@
 {
   "name": "mime-to-extensions",
   "description": "A fork of mime-type by jshttp. This has additional functionality to list all extensions for a mime type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": [
     "Thihara Neranjya <tneranjya@gmail.com>"
   ],

@@ -90,7 +90,7 @@ A map of extensions by content-type.
 [MIT](LICENSE)
 
 [npm-image]: https://img.shields.io/npm/v/mime-types.svg
-[npm-url]: https://npmjs.org/package/mime-types
+[npm-url]: https://www.npmjs.com/package/mime-to-extensions
 [node-version-image]: https://img.shields.io/node/v/mime-types.svg
 [node-version-url]: https://nodejs.org/en/download/
 [travis-image]: https://travis-ci.org/thihara/mime-to-extensions.svg?branch=master
